@@ -13,7 +13,7 @@ class MpvIina < Formula
   depends_on "docutils" => :build
   depends_on "meson" => :build
   depends_on "pkg-config" => [:build, :test]
-  depends_on xcode: :build
+  # depends_on xcode: :build
 
   depends_on "ffmpeg-iina"
   depends_on "jpeg-turbo"
