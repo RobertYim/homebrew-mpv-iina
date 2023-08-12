@@ -8,10 +8,10 @@ class FfmpegIina < Formula
   sha256 "57be87c22d9b49c112b6d24bc67d42508660e6b718b3db89c44e47e289137082"
   head "https://github.com/FFmpeg/FFmpeg.git", branch: "master"
 
-  keg_only <<EOS
-it is intended to only be used for building IINA.
-This formula is not recommended for daily use and has no binaraies (ffmpeg, ffplay etc.)
-EOS
+#   keg_only <<EOS
+# it is intended to only be used for building IINA.
+# This formula is not recommended for daily use and has no binaraies (ffmpeg, ffplay etc.)
+# EOS
 
   depends_on "pkg-config" => :build
   depends_on "dav1d"

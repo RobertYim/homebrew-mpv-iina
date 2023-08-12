@@ -8,7 +8,7 @@ class MpvIina < Formula
   sha256 "41df981b7b84e33a2ef4478aaf81d6f4f5c8b9cd2c0d337ac142fc20b387d1a9"
   head "https://github.com/mpv-player/mpv.git"
 
-  keg_only "it is intended to only be used for building IINA. This formula is not recommended for daily use"
+  # keg_only "it is intended to only be used for building IINA. This formula is not recommended for daily use"
 
   depends_on "docutils" => :build
   depends_on "meson" => :build
