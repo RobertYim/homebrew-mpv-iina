@@ -26,7 +26,7 @@ class MpvIina < Formula
   depends_on "mujs"
   depends_on "uchardet"
   # depends_on "vapoursynth"
-  # depends_on "yt-dlp"
+  depends_on "yt-dlp"
 
   stable do
     # Fix ytdl issue. Remove after next mpv release.
